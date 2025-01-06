@@ -1,1 +1,1 @@
-This is the begigin of my first task on headphones
+This is the begining of my first task on headphones
