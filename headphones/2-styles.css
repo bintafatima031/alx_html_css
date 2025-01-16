@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins" sans-serif;
+}
+
+.our-results {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 6rem;
+    background-image: url(assets/background\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: cover;
+    color: white;
+
+}
+
+.result-div {
+    width: 100%;
+}
+
+.our-results h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.our-results p {
+    width: 70%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+}
+
+.pentagon img {
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+

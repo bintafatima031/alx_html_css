@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins" sans-serif;
+}
+
+.what-we-do {
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+
+.we-do-items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2.5rem;
+    padding: 4rem 2rem 3rem 2rem;
+}
+
+.we-do-items h2 {
+    font-size: 1.8rem
+}
+
+.we-do-items p{
+width: 70%;
+text-align: center;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.5
+
+}
+.icon-div {
+width: 100%;
+height: 65;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+column-gap: 2rem;
+}
+
+.sound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hearing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.icon-div img {
+    width: 65px;
+    height: auto;
+}
+
+.icon-div h3 {
+padding-top: 0.5rem;
+}
+
+.icon-div p {
+    width: 100%;
+    padding-top: 0.5rem;
+}

@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "poppins" sans-serif;
+}
+
 header {
     width: 100%;
     height: auto;
     background-image: url(assets/background\ \(1\).png);
     background-repeat: none;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +30,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 6rem 2rem 6rem;
-    
+
 }
 
 ul {
@@ -33,13 +38,14 @@ ul {
     display: flex;
     flex-direction: row;
     column-gap: 2rem;
-    
+
 }
 
 a {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-size: 18px;
 
 
 }
@@ -50,30 +56,43 @@ a:hover {
 
 .hero {
     width: 60%;
-    height: auto;
+    height: 400px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 10rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
+    margin-bottom: 2rem;
     row-gap: 1.5rem;
 
 }
 
 .hero-text {
     width: 80%;
-text-align: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
 }
 
 button {
-  background-color: #FF6565;
-  padding: 8px 10px;
-  border-radius: 15px;
-  color: white;
-  cursor: pointer;
-  border: none;
+    background-color: #FF6565;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
 button:hover {
@@ -81,6 +100,11 @@ button:hover {
 }
 
 .hero-p {
-    width: 80%;
+    width: 90%;
     text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+    margin-bottom: 3rem;
+
 }
